@@ -1,0 +1,32 @@
+{
+  "name": "@orz14/crypt-ts",
+  "version": "1.0.3",
+  "description": "Simple AES-256-CBC encryption/decryption utilities for Node.js/TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orz14/crypt-ts.git"
+  },
+  "author": "orz14",
+  "license": "MIT",
+  "keywords": [
+    "encryption",
+    "aes-256-cbc",
+    "crypto",
+    "typescript",
+    "nodejs"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "typescript": "^5.0.0"
+  }
+}
